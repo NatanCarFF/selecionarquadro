@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Técnicos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .painel {
+            display: flex;
+            gap: 20px;
+        }
+        .quadro {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 150px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .quadro:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="painel">
+        <div class="quadro" onclick="window.location.href='https://natancarff.github.io/Contador-Mercadoria/'">
+            Técnico 1
+        </div>
+        <div class="quadro" onclick="window.location.href='https://natancarff.github.io/Contador-Mercadoria/'">
+            Técnico 2
+        </div>
+        <div class="quadro" onclick="window.location.href='https://natancarff.github.io/Contador-Mercadoria/'">
+            Técnico 3
+        </div>
+    </div>
+</body>
+</html>
